@@ -1,5 +1,4 @@
-# frozen_string_literal: true
 
 Rails.application.routes.draw do
-  get 'greeting/index'
+  get 'greeting', to: 'greeting#index'
 end
